@@ -1,6 +1,22 @@
 /*ESTILOS PARA TABLETS*/
 
-@media only screen and (min-width: 768px) and (max-width: 959px) {}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    .qualidade:after {
+        right: 66px;
+    }
+    .qualidade_lista li {
+        padding: 0 10px;
+    }
+    .footer_redes ul li a {
+        border: 3px solid #fec63e;
+        display: block;
+        padding: 6px;
+    }
+    .footer_redes ul li a img {
+        width: 26px;
+        height: 26px;
+    }
+}
 
 
 /*ESTILOS PARA SMARTPHONE*/
@@ -31,10 +47,20 @@
         border-color: #fff;
     }
     /*INTRODUÇÃO*/
+    .introducao h1 {
+        font-size: 36px;
+    }
     .introducao {
         margin-top: 0px;
         padding-top: 20px;
         background: url("../img/bg-mobile.jpg") no-repeat center;
         background-size: cover;
+    }
+    .call {
+        padding-top: 10px;
+    }
+    /*QUALIDADE HOME*/
+    .qualidade:after {
+        display: none;
     }
 }

@@ -219,7 +219,7 @@ img {
 .produtos_lista li h3:after {
     content: "";
     display: block;
-    width: 60px;
+    width: 50px;
     height: 3px;
     background: #000;
     margin: 2px auto;
@@ -242,7 +242,6 @@ img {
 
 .call p {
     margin-bottom: 20px;
-    font-weight: ;
 }
 
 
@@ -281,6 +280,7 @@ img {
     content: "";
     width: 634px;
     height: 83px;
+    display: block;
     background: url("../img/linhas.svg") no-repeat center;
     position: absolute;
     top: 209px;
